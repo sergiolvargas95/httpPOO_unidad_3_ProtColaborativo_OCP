@@ -1,6 +1,6 @@
 package ejercicioDos;
 
-public class ExportarExcel implements Exportador {
+public class ExportadorExcel implements Exportador {
     @Override
     public void exportar(String contenido) {
         System.out.println("Exportando contenido a Excel: " + contenido);

@@ -11,8 +11,7 @@ public class Documento {
         return contenido;
     }
 
-    public void exportarPDF() {
-        System.out.println("Exportando contenido a PDF: " + contenido);
+    public void exportar(Exportador exportador) {
+        exportador.exportar(contenido);
     }
 }
-
